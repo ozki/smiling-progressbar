@@ -7,9 +7,4 @@
     </string>
     <string name="hello_world">Hello world!
     </string>
-    <string name="smile_sad">😞</string>
-    <string name="smile_neutral">😐</string>
-    <string name="smile_happy">😊</string>
-    <string name="smile_yay">😁</string>
-
 </resources>
