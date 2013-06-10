@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:pb="http://schemas.android.com/apk/res/com.tiemenschut.tutorials.compoundcontrol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <view
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.tiemenschut.tutorials.compoundcontrol.SmilingProgressBar"
+            android:id="@+id/view1"
+            pb:progress="0"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <view
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.tiemenschut.tutorials.compoundcontrol.SmilingProgressBar"
+            android:id="@+id/view2"
+            pb:progress="25"
+            android:layout_below="@+id/view1"
+            android:layout_alignLeft="@+id/view1"/>
+
+    <view
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.tiemenschut.tutorials.compoundcontrol.SmilingProgressBar"
+            android:id="@+id/view3"
+            pb:progress="50"
+            android:layout_below="@+id/view2"
+            android:layout_alignLeft="@+id/view2"/>
+
+    <view
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.tiemenschut.tutorials.compoundcontrol.SmilingProgressBar"
+            android:id="@+id/view4"
+            pb:progress="75"
+            android:layout_below="@+id/view3"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
