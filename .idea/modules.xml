@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompoundControl.iml" filepath="$PROJECT_DIR$/CompoundControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompoundControl-CompoundControl.iml" filepath="$PROJECT_DIR$/CompoundControl-CompoundControl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smiling-progressbar.iml" filepath="$PROJECT_DIR$/smiling-progressbar.iml" />
     </modules>
   </component>
 </project>
