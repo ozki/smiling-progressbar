@@ -9,7 +9,6 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 public class SmilingProgressBar extends LinearLayout {
-
     private final ImageView smileView;
     private final ProgressBar progressBar;
     private int progress = 0;
@@ -25,6 +24,11 @@ public class SmilingProgressBar extends LinearLayout {
         smileView = (ImageView) findViewById(R.id.smile);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
+        update();
+    }
+
+    public void setProgress(int progress) {
+        this.progress = progress;
         update();
     }
 

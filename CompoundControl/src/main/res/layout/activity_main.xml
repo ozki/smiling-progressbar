@@ -16,7 +16,8 @@
             android:id="@+id/view1"
             pb:progress="0"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
 
     <view
             android:layout_width="fill_parent"
@@ -25,7 +26,8 @@
             android:id="@+id/view2"
             pb:progress="25"
             android:layout_below="@+id/view1"
-            android:layout_alignLeft="@+id/view1"/>
+            android:layout_alignLeft="@+id/view1"
+            android:layout_marginBottom="10dp"/>
 
     <view
             android:layout_width="fill_parent"
@@ -34,7 +36,8 @@
             android:id="@+id/view3"
             pb:progress="50"
             android:layout_below="@+id/view2"
-            android:layout_alignLeft="@+id/view2"/>
+            android:layout_alignLeft="@+id/view2"
+            android:layout_marginBottom="10dp"/>
 
     <view
             android:layout_width="fill_parent"
